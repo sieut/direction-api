@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "get Google's direction and filter it",
   "main": "app.js",
+  "engines": {
+    "node": "6.0.0"
+  }
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Sieu Tsoi",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sieut/direction-api"
   }
 }
